@@ -1,5 +1,6 @@
 ---
-
+import SuperiorNav from '@/components/SuperiorNav.astro';
+import '../estail/estilos.css';
 ---
 
 <html lang="en">
@@ -11,6 +12,11 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+    <main>
+<SuperiorNav />
+      <slot  />
+    </main>
+		
+		
 	</body>
 </html>
